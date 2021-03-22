@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_anyadir"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_anyadir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_borrar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menu_borrar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_restaurar"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/menu_restaurar"
+        app:showAsAction="always" />
+</menu>

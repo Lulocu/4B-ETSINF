@@ -1,0 +1,22 @@
+02-16 10:59:18.550 3867-3867/? E/libprocessgroup: failed to make and chown /acct/uid_10059: Read-only file system
+02-16 10:59:18.550 3867-3867/? W/Zygote: createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+02-16 10:59:18.550 3867-3867/? I/art: Not late-enabling -Xcheck:jni (already on)
+02-16 10:59:18.643 3867-3867/com.example.holamundo W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+02-16 10:59:18.708 3867-3867/com.example.holamundo I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+02-16 10:59:18.709 3867-3867/com.example.holamundo I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+02-16 10:59:18.768 3867-3881/com.example.holamundo W/art: Suspending all threads took: 31.226ms
+02-16 10:59:18.775 3867-3881/com.example.holamundo I/art: Background partial concurrent mark sweep GC freed 631(89KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 948KB/1972KB, paused 34.067ms total 67.097ms
+02-16 10:59:18.830 3867-3867/com.example.holamundo D/holaMundo.MainActivity: Mensaje cambiado
+02-16 10:59:18.835 3867-3867/com.example.holamundo D/holaMundo.MainActivity: onStart
+02-16 10:59:18.836 3867-3867/com.example.holamundo D/holaMundo.MainActivity: onResume
+02-16 10:59:18.840 3867-3885/com.example.holamundo D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+02-16 10:59:18.843 3867-3867/com.example.holamundo D/Atlas: Validating map...
+02-16 10:59:18.881 3867-3885/com.example.holamundo I/OpenGLRenderer: Initialized EGL, version 1.4
+02-16 10:59:18.882 3867-3885/com.example.holamundo W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-16 10:59:18.904 3867-3885/com.example.holamundo D/EGL_emulation: eglCreateContext: 0xaf034e20: maj 2 min 0 rcv 2
+02-16 10:59:18.939 3867-3885/com.example.holamundo D/EGL_emulation: eglMakeCurrent: 0xaf034e20: ver 2 0 (tinfo 0xaf039400)
+02-16 10:59:18.944 3867-3885/com.example.holamundo D/OpenGLRenderer: Enabling debug mode 0
+02-16 10:59:18.954 3867-3885/com.example.holamundo D/EGL_emulation: eglMakeCurrent: 0xaf034e20: ver 2 0 (tinfo 0xaf039400)
+02-16 10:59:42.520 3867-3867/com.example.holamundo D/holaMundo.MainActivity: onPause
+02-16 10:59:42.628 3867-3885/com.example.holamundo D/EGL_emulation: eglMakeCurrent: 0xaf034e20: ver 2 0 (tinfo 0xaf039400)
+02-16 10:59:42.896 3867-3867/com.example.holamundo D/holaMundo.MainActivity: onStop

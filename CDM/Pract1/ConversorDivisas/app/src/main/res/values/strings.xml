@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ConversorDivisas</string>
+
+    <string name="hint_about"> About app author</string>
+    <string name="msg_divisaA"> <b>Divisa A</b></string>
+    <string name="msg_divisaB"> <b>Divisa B</b></string>
+    <string name="msg_deAaB"> <b> Convertir\nA &#8594; B</b></string>
+    <string name="msg_deBaA"> <b> Convertir\nB &#8594; A</b></string>
+    <string name="msg_reset"> Borrar Montantes</string>
+
+    <string name="msg_AyudaPeticionesHTTP">
+        Introduce las dos divisas de interés y el montante de aquella que desees convertir.
+        Luego pulsa el botón correspondiente y se realizará la conversión.
+        Los cambios aplicados son los que establece el Banco Central Europeo (obtenidos por HTTPS).
+        Utilizaremos el método de comunicación
+    </string>
+    <string name="activity_name">Conversor de divisas</string>
+
+    <!-- MAINACTIVITY STRINGS   -->
+    <string name="tv_titulo">Comunicaciones HTTPS/VOLLEY</string>
+    <string name="tv_ayuda">Demo que muestran cómo realizar comunicaciones en Android por medio de la librería Volley o con la ayuda de la clase HttpsUrlConnection (utilizando handlers o tareas asíncronas)</string>
+    <string name="btn_lanzarCambioDivisasDemo">Cambio de Divisas </string>
+
+    <!-- activity_about STRINGS   -->
+    <string name="str_aboutinfo">
+        "<b>Componentes Avanzados Demo</b> by\n
+        <i>Juan Carlos Ruiz</i>\n
+        jcruizg@disca.upv.es\n
+        &#169;2018-2021 DISCA-UPV"
+    </string>
+
+    <string name="strHttpsAsynTask">Petición de divisas HttpsUrlConnection (AsyncTask)</string>
+    <string name="strHttpsHandler">Petición de divisas HttpsUrlConnection (Handler)</string>
+    <string name="strHttpsVolley">Petición de divisas usando la librería Volley</string>
+
+
+    <string name="strTest">Test de petición de divisas</string>
+    <string name="strBtnTest">Prueba petición</string>
+</resources>
