@@ -1,0 +1,35 @@
+.
+├── blog
+│   ├── list.php
+│   ├── model.php
+│   └── view.php GET SELECT -> SELF
+├── comment
+│   ├── add.php
+│   ├── create.php
+│   ├── delete.php
+│   ├── model.php
+│   ├── none.php
+│   └── show.php
+├── entry
+│   ├── add.php
+│   ├── create.php
+│   ├── delete.php
+│   ├── model.php
+│   ├── show.php
+│   └── view.php GET SELECT -> [index.php (error),SELF
+├── error.php
+├── index.php -> [blog/wiew.php, user/login.php, register.php
+├── lib
+│   ├── BlogDB.php
+│   ├── common.php
+│   ├── footer.php
+│   └── header.php
+└── user
+    ├── block.php
+    ├── create.php
+    ├── login.php INPUT POST -> user/validate.php
+    ├── logout.php
+    ├── model.php
+    ├── register.php
+    ├── validate.php POST -> [index.php (error), user/login.php]
+    └── view.php

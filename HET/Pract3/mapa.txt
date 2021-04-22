@@ -1,0 +1,22 @@
+08048000-08049000 r--p 00000000 08:13 13915635                           /home/luis/4B-ETSINF/HET/Pract3/pilaSleep
+08049000-0804a000 r-xp 00001000 08:13 13915635                           /home/luis/4B-ETSINF/HET/Pract3/pilaSleep
+0804a000-0804b000 r--p 00002000 08:13 13915635                           /home/luis/4B-ETSINF/HET/Pract3/pilaSleep
+0804b000-0804c000 r--p 00002000 08:13 13915635                           /home/luis/4B-ETSINF/HET/Pract3/pilaSleep
+0804c000-0804d000 rw-p 00003000 08:13 13915635                           /home/luis/4B-ETSINF/HET/Pract3/pilaSleep
+096f6000-09718000 rw-p 00000000 00:00 0                                  [heap]
+f7cf8000-f7d15000 r--p 00000000 08:13 673620                             /usr/lib/i386-linux-gnu/libc-2.31.so
+f7d15000-f7e70000 r-xp 0001d000 08:13 673620                             /usr/lib/i386-linux-gnu/libc-2.31.so
+f7e70000-f7ee0000 r--p 00178000 08:13 673620                             /usr/lib/i386-linux-gnu/libc-2.31.so
+f7ee0000-f7ee1000 ---p 001e8000 08:13 673620                             /usr/lib/i386-linux-gnu/libc-2.31.so
+f7ee1000-f7ee3000 r--p 001e8000 08:13 673620                             /usr/lib/i386-linux-gnu/libc-2.31.so
+f7ee3000-f7ee5000 rw-p 001ea000 08:13 673620                             /usr/lib/i386-linux-gnu/libc-2.31.so
+f7ee5000-f7ee7000 rw-p 00000000 00:00 0 
+f7efc000-f7efe000 rw-p 00000000 00:00 0 
+f7efe000-f7f01000 r--p 00000000 00:00 0                                  [vvar]
+f7f01000-f7f02000 r-xp 00000000 00:00 0                                  [vdso]
+f7f02000-f7f03000 r--p 00000000 08:13 673616                             /usr/lib/i386-linux-gnu/ld-2.31.so
+f7f03000-f7f21000 r-xp 00001000 08:13 673616                             /usr/lib/i386-linux-gnu/ld-2.31.so
+f7f21000-f7f2c000 r--p 0001f000 08:13 673616                             /usr/lib/i386-linux-gnu/ld-2.31.so
+f7f2d000-f7f2e000 r--p 0002a000 08:13 673616                             /usr/lib/i386-linux-gnu/ld-2.31.so
+f7f2e000-f7f2f000 rw-p 0002b000 08:13 673616                             /usr/lib/i386-linux-gnu/ld-2.31.so
+ff9fa000-ffa1b000 rw-p 00000000 00:00 0                                  [stack]
