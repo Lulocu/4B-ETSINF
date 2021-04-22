@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">ListaCompraSinAlmacenamiento</string>
+    <string name="spinnerdemo_name">Conversor de divisas</string>
+    <string name="listdemo_name">Lista de la compra</string>
+    <string name="simplelistdemo_name">Lista (simple) de la compra</string>
+    ∫
+    <string name="msg_GotoSpinnerDemo">Spinner Demo</string>
+    <string name="msg_GotoRecyclerViewDemo">RecyclerView Demo</string>
+    <string name="msg_SelectDemo">¿Qué demo te interesa?</string>
+    <string name="msg_GotoLVConArrayAdapter">ListView con ArrayAdapter Demo</string>
+    <string name="msg_GotoLVConSimpleAdapter">ListView con SimpleAdapter Demo</string>
+    <string name="msg_GotoLVConCustomAdapter">ListView con CustomAdapter Demo</string>
+    <string name="msg_GotoMenuDemo">Lista de la Compra</string>
+    <string name="msg_GotoFileDemo">Ficheros Demo</string>
+    <string name="msg_GotoHTTPDemo">HTTP Demo</string>
+    <string name="str_aboutinfo">
+        "<b>Componentes Avanzados Demo</b> by\n
+        <i>Juan Carlos Ruiz</i>\n
+        jcruizg@disca.upv.es\n
+        &#169;2018 DISCA-UPV\n
+        &#169;2021 Rev. 1 "
+    </string>
+    <string name="msg_AyudaSpinnerDemo">
+        Introduce las dos divisas de interés y el montante de aquella que desees convertir.
+        Luego pulsa el botón correspondiente y se realizará la conversión.
+    </string>
+    <string name="msg_AyudaListaCompraSimple">
+        Se muestra el comportamiento de un ListView, su programación y el procesamiento de algunos de los eventos que podemos gestionar.
+    </string>
+    <string name="msg_FileDemo">
+        Se incluye en el Menu la opción de salvar la lista de la compra.
+        Ahora el botón de recarga, lee la lista ya almacenada y la visualiza.
+    </string>
+
+    <string name="msg_AyudaRecyclerView">
+        Se muestra el comportamiento y uso de las clases RecyclerView y CardView.
+    </string>
+    <string name="hint_about"> About app author</string>
+    <string name="msg_divisaA"> <b>Divisa A</b></string>
+    <string name="msg_divisaB"> <b>Divisa B</b></string>
+    <string name="msg_deAaB"> <b> Convertir\nA &#8594; B</b></string>
+    <string name="msg_deBaA"> <b> Convertir\nB &#8594; A</b></string>
+    <string name="msg_reset"> Borrar Montantes</string>
+
+    <string name="o_anyadir">Añadir</string>
+    <string name="o_borrar">Borrar</string>
+    <string name="msg_producto"><b>Producto:</b></string>
+    <string name="msg_lugar"><b>Lugar compra:</b></string>
+    <string name="etiq_LugarCompra">Comprar en</string>
+
+    <string name="menu_anyadir">Añadir</string>
+    <string name="menu_borrar">Borrar</string>
+    <string name="menu_restaurar">Restaurar</string>
+    <string name="menu_guardar">Guardar</string>
+
+    <string name="muy_necesario">Muy necesario </string>
+    <string name="necesario">Necesario     </string>
+    <string name="poco_necesario">Poco necesario</string>
+    <string name="nada_necesario">Nada necesario</string>
+    <string name="etiq_Producto">Producto</string>
+    <string name="etiq_Comercio">Lugar de compra:</string>
+    <string name="etiq_Necesidad">Necesidad:</string>
+
+    <string name="etiq_btnOK">Aceptar</string>
+    <string name="etiq_btnKO">Cancelar</string>
+
+    <string name="etiq_borrado">Borrado de Producto</string>
+    <string name="msg_borrado">¿Desea realmente eliminar el producto [%1$s]?"</string>
+
+    <string name="etiq_editarBorrar">Elige Editar o Borrar</string>
+    <string name="msg_editarBorrar">¿Deseas editar o borrar el producto elegido?"</string>
+
+
+</resources>

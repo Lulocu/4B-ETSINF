@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lugares_compra">
+        <item>Carrefour</item>
+        <item>Consum</item>
+        <item>LIDL</item>
+        <item>Dia</item>
+        <item>Mercadona</item>
+        <item>Amazon</item>
+        <item>MediaMarkt</item>
+        <item>IKEA</item>
+        <item>Leroy Merlin</item>
+    </array>
+</resources>

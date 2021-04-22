@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IGUComponentesBasicos</string>
+
+    <string name="texto_boton">Delete</string>
+    <string name="texto_boton_on">ON</string>
+    <string name="texto_boton_off">OFF</string>
+    <string name="imagen_pista">Busca una imagen</string>
+
+    <string name="nombre_pista">Tu nombre</string>
+    <string name="email_pista">Tu <sub>email</sub></string>
+    <string name="fecha_pista">Fecha (<u>dd/mm/aa</u>)</string>
+    <string name="contrasenya_pista">Tu <i>contraseña</i></string>
+    <string name="hora_pista">Hora (<b>hh:mm:ss</b>)</string>
+
+    <string name="cb_text">Elegir idioma</string>
+    <string name="tv_text">Idiomas soportados:</string>
+    <string name="rb2_text">Inglés</string>
+    <string name="rb3_text">Valenciano</string>
+    <string name="rb4_text">Español</string>
+    <string name="btn_text">Cambiar Idioma</string>
+
+    <string name="tvConfig_text">Configuración</string>
+    <string name="Nombre_tag">Nombre: </string>
+    <string name="Contrasenya_tag">Contraseña: </string>
+    <string name="AplicarConfiguracion_tag">Aplicar</string>
+
+    <!-- activity_about STRINGS   -->
+    <string name="str_aboutinfo">
+        "<b>Componentes Básicos Demo</b> by\n
+        <i>Juan Carlos Ruiz</i>\n
+        jcruizg@disca.upv.es\n
+        &#169;2018 DISCA-UPV\n
+        &#169;2020 Rev1
+        &#169;2021-Rev2"
+    </string>
+</resources>

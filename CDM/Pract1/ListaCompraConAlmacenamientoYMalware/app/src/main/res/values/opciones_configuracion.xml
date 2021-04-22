@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="prefs_default_sharing_photos_titles">
+        <item>Google photos</item>
+        <item>Dropbox</item>
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>Flickr</item>
+    </string-array>
+
+    <string-array name="prefs_default_sharing_photos_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="opciones_memoria">
+        <item>Memoria interna</item>
+        <item>Memoria Externa (SD)</item>
+    </string-array>
+
+    <string-array name="opciones_memoria_valores">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="opciones_memoria_externa">
+        <item>Alm. externo público (/)</item>
+        <item>Alm- externo público (espec. [Music])</item>
+        <item>Alm. externo privado (/ de la app)</item>
+        <item>Alm. externo privado (espec. [Compras])</item>
+    </string-array>
+
+    <string-array name="opciones_memoria_externa_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

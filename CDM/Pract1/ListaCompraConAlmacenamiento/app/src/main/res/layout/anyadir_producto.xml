@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/etiq_Producto"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_nombreProducto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_nombreProducto" />
+
+    <EditText
+        android:id="@+id/et_nombreProducto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/producto_hint"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/rg_necesidad"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/etiq_Comercio"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombreProducto" />
+
+    <Spinner
+        android:id="@+id/sp_lugarCompra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/lugares_compra"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/rg_necesidad"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiq_Necesidad"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rg_necesidad"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/rg_necesidad" />
+
+    <RadioGroup
+        android:id="@+id/rg_necesidad"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:checkedButton="@+id/rb_muyNecesario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/sp_lugarCompra">
+
+        <RadioButton
+            android:id="@+id/rb_muyNecesario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/muy_necesario"
+            android:text="@string/muy_necesario"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_necesario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/necesario"
+            android:text="@string/necesario"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_pocoNecesario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/poco_necesario"
+            android:text="@string/poco_necesario"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_nadaNecesario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/nada_necesario"
+            android:text="@string/nada_necesario"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_SI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/etiq_btnOK"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/rg_necesidad" />
+
+    <Button
+        android:id="@+id/btn_NO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/etiq_btnKO"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_SI"
+        app:layout_constraintEnd_toEndOf="@+id/rg_necesidad"
+        app:layout_constraintTop_toBottomOf="@+id/rg_necesidad" />
+
+</android.support.constraint.ConstraintLayout>

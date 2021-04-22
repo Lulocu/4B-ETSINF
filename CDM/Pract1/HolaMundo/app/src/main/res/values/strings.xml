@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HolaMundo</string>
+    <string name="mensaje">HolaMundo</string>
+
+    <!-- activity_about STRINGS   -->
+    <string name="str_aboutinfo">
+        "<b>Componentes Básicos Demo</b> by\n
+        <i>Luis López Cuerva</i>\n
+        <i>Pablo Alcarria Lozano</i>\n
+        luilocu2@inf.upv.es\n
+        pabloal1@inf.upv.es\n
+    </string>
+</resources>

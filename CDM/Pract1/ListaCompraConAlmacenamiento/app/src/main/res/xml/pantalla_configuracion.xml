@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pc_restaurar">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summaryOff="@string/pc_restaurar_OffSummary"
+            android:summaryOn="@string/pc_restaurar_OnSummary"
+            android:title="@string/pc_restaurar_titulo"
+            android:key="restaurar"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pc_memoria">
+        <ListPreference
+            android:entries="@array/opciones_memoria"
+            android:entryValues="@array/opciones_memoria_valores"
+            android:summary="@string/pc_memoria_resumen"
+            android:title="@string/pc_memoria_titulo"
+            android:key="memoria"
+            android:defaultValue="0"
+            />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/opciones_memoria_externa"
+            android:entryValues="@array/opciones_memoria_externa_values"
+            android:key="memoria_ext"
+            android:summary="@string/pc_memoria_externa_resumen"
+            android:title="@string/pc_memoria_externa_titulo" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

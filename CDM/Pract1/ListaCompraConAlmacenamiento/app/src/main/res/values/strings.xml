@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GestionFicheros</string>
+
+
+    <!-- FicherosDemo -->
+
+    <string name="listaCompra_nombre">Lista de la compra</string>
+    <string name="listaCompra_ayuda">
+        Este ejemplo muestra cómo trabajar tanto con ficheros en memoria interna como en memoria externa (tarjeta SD). También muestra cómo generar y procesar ficheros xml.
+    </string>
+
+    <string name="etiq_editarBorrar">Elige Editar o Borrar</string>
+    <string name="msg_editarBorrar">¿Deseas editar o borrar el producto elegido?"</string>
+
+    <string name="etiq_borrado">Borrado de Producto</string>
+    <string name="msg_borrado">¿Desea realmente eliminar el producto [%1$s]?"</string>
+
+
+    <string name="etiq_btnOK">Aceptar</string>
+    <string name="etiq_btnKO">Cancelar</string>
+
+
+    <string name="muy_necesario">Muy necesario </string>
+    <string name="necesario">Necesario     </string>
+    <string name="poco_necesario">Poco necesario</string>
+    <string name="nada_necesario">Nada necesario</string>
+    <string name="etiq_Producto">Producto</string>
+    <string name="etiq_Comercio">Lugar de compra:</string>
+    <string name="etiq_Necesidad">Necesidad:</string>
+
+    <string name="menu_anyadir">Añadir</string>
+    <string name="menu_borrar">Borrar</string>
+    <string name="menu_restaurar">Restaurar</string>
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_configurar">Configurar</string>
+
+    <!-- Añadir producto -->
+    <string name="o_anyadir">Añadir</string>
+    <string name="o_borrar">Borrar</string>
+    <string name="msg_producto"><b>Producto:</b></string>
+    <string name="producto_hint"><b>Nombre</b></string>
+    <string name="msg_lugar"><b>Lugar compra:</b></string>
+    <string name="etiq_LugarCompra">Comprar en</string>
+
+    <!-- MainActivity -->
+
+    <string name="msg_configuracion">¿Con qué tipo de memoria trabajaremos?</string>
+    <string name="main_name">Almacenamieno</string>
+    <string name="main_ayuda">¿Qué demo te interesa?</string>
+    <string name="main_btnFicheros">Lista de la compra</string>
+
+
+    <!-- pantalla_configuracion.xml -->
+
+
+    <string name="pc_memoria">Almacenamiento</string>
+    <string name="pc_memoria_titulo">¿Memoria interna o externa?</string>
+    <string name="pc_memoria_resumen">Pulse para especificar dónde se almacenarán, y desde dónde se recuperarán, sus listas de la compra.</string>
+    <string name="pc_memoria_externa_titulo">Almacenamiento externo</string>
+    <string name="pc_memoria_externa_resumen">Pulse para escoger entre almacenamiento externo privado o público.</string>
+    <string name="pc_restaurar">Estado de la app</string>
+    <string name="pc_restaurar_titulo">Restaurar</string>
+    <string name="pc_restaurar_OnSummary">Cuando ejecute la app, su lista de la compra será restaurará con el último backup realizado.</string>
+    <string name="pc_restaurar_OffSummary">No restauraremos su lista de la compra, que estará vacía la próxima vez que ejecute la app.</string>
+
+    <!-- activity_about.xml -->
+
+    <string name="str_aboutinfo">
+        "<b>Componentes Avanzados Demo</b> by\n<i>Juan Carlos Ruiz</i>\njcruizg@disca.upv.es\n&#169;2018 DISCA-UPV"
+    </string>
+
+</resources>
