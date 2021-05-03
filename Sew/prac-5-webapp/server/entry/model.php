@@ -15,7 +15,6 @@ function create_entry($title, $blog_id, $contents)
         "values (null, ?, ?, ?, ?)";
 
     $statement = $db->prepare($query);
-
     $result = $statement->execute([$title, $blog_id, $contents, $timestamp]);
 
     if ($result === false) {
@@ -33,13 +32,11 @@ function list_entries($blog_id)
 
     $db = BlogDB::connect();
 
-    $query = "select * from entries where blog_id = :ident order by created_at desc";
+    $query = "select * from entries where blog_id = {$blog_id} order by created_at desc";
 
+    $result = $db->query($query);
 
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $blog_id]);
-
-    return $sst->fetchAll();
+    return $result->fetchAll();
 }
 
 function get_entry($entry_id)
@@ -47,11 +44,9 @@ function get_entry($entry_id)
 
     $db = BlogDB::connect();
 
-    $query = "select * from entries where id = :ident";
+    $query = "select * from entries where id = {$entry_id}";
 
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $entry_id]);
+    $result = $db->query($query);
 
-
-    return $sst->fetch();
+    return $result->fetch();
 }

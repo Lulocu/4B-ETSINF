@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<title>Blogealo! Main page</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/css/w3.css">
+<link rel="stylesheet" href="/css/sew.css">
+
+<body>
+
+<div class="sew-main">
+    <header class="w3-cell-row">
+        <div class="w3-cell w3-indigo w3-center w3-padding" style="width: 10%">
+            <h1>Blogealo!</h1>
+        </div>
+        <div class="w3-cell w3-blue-grey w3-padding">
+            <h2>Main page</h2>
+        </div>
+        <div class="w3-cell w3-blue-grey w3-center" style="width: 10%">
+            <img src="/images/logo-web-security.png" height="64"/>
+        </div>
+    </header>
+    <nav class="w3-container w3-light-gray w3-right-align w3-padding">
+        <span class='w3-left w3-small'><a href='/index.php' class='w3-button w3-round'>Home</a>
+</span><span>Sergio Saez</span>
+<a href='/user/logout.php' class='w3-button w3-small w3-black w3-round'>Logout</a>
+    </nav>
+
+    <div class="sew-contents">
+
+        
+    <div class="w3-margin">
+        <div class="w3-card w3-container w3-blue-gray">
+            <h2>Available blogs</h2>
+        </div>
+
+       
+<table class="w3-card w3-table w3-bordered w3-section">
+    <tr class="w3-green">
+        <th>Title</th>
+        <th>Author</th>
+        <th>Date</th>
+    </tr>
+
+    <tr>
+  <td class="w3-container w3-hover-pale-green sew-cursor-pointer" onclick="window.location = '/blog/view.php?blog_id=1'">Historia de unas prácticas de seguridad web</td>
+  <td>Sergio Saez</td>
+  <td>2019-03-20 19:39:45</td>
+</tr>
+<tr>
+  <td class="w3-container w3-hover-pale-green sew-cursor-pointer" onclick="window.location = '/blog/view.php?blog_id=2'">Seguridad web: de la teoría a la práctica</td>
+  <td>Pascual Perez</td>
+  <td>2019-03-20 19:56:25</td>
+</tr>
+<tr>
+  <td class="w3-container w3-hover-pale-green sew-cursor-pointer" onclick="window.location = '/blog/view.php?blog_id=3'">Una al dia sobre ciber-seguridad</td>
+  <td>Ismael Ripoll</td>
+  <td>2019-03-20 20:13:05</td>
+</tr>
+</table>
+
+<br>    </div>
+
+</div>
+
+<footer class="w3-container w3-blue-grey">
+    <h5>Blogealo! </h5>
+    <p>&copy; 2021 Prácticas de Seguridad Web
+        <span class="w3-right">20210430-140041 97803f5b8090bbd7b8e9be3805fa570d</span>
+    </p>
+</footer>
+
+</div>
+
+</body>
+</html>

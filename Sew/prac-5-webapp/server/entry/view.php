@@ -13,11 +13,7 @@ include __DIR__ . "/model.php";
 include __DIR__ . "/../comment/model.php";
 include __DIR__ . "/../blog/model.php";
 
-//$entry_id = $_GET["entry_id"];
-$entry_id = filter_input(INPUT_GET, 'entry_id', FILTER_VALIDATE_INT);
-if (!$entry_id) {
-    jump("/error.php", ["errorMessage" => "Invalid entry identifier"]);
-}
+$entry_id = $_GET["entry_id"];
 
 $entry = get_entry($entry_id);
 if ($entry === false) {

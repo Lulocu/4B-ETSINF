@@ -1,35 +1,12 @@
 .
 ├── blog
-│   ├── list.php
-│   ├── model.php
-│   └── view.php GET SELECT -> SELF
-├── comment
-│   ├── add.php
-│   ├── create.php
-│   ├── delete.php
-│   ├── model.php
-│   ├── none.php
-│   └── show.php
+│   └── view.php GET SELECT -> entry/wiew.php,-> user/login.php, register.php
 ├── entry
-│   ├── add.php
-│   ├── create.php
-│   ├── delete.php
-│   ├── model.php
-│   ├── show.php
-│   └── view.php GET SELECT -> [index.php (error),SELF
+│   └── view.php GET SELECT -> [blog/wiew.php, comment/mode.php], -> user/login.php, register.php
 ├── error.php
-├── index.php -> [blog/wiew.php, user/login.php, register.php
+├── index.php  GET SELECT-> [blog/wiew.php], -> user/login.php, register.php
 ├── lib
-│   ├── BlogDB.php
-│   ├── common.php
-│   ├── footer.php
-│   └── header.php
 └── user
-    ├── block.php
-    ├── create.php
     ├── login.php INPUT POST -> user/validate.php
-    ├── logout.php
-    ├── model.php
-    ├── register.php
+    ├── register.php POST -> user/register
     ├── validate.php POST -> [index.php (error), user/login.php]
-    └── view.php

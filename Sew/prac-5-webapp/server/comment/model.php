@@ -30,10 +30,9 @@ function delete_comment($comment_id)
 {
     $db = BlogDB::connect();
 
-    $query = "delete from comments where id = :ident";
+    $query = "delete from comments where id = '{$comment_id}'";
 
-    $sst=$db->prepare($query);
-    $result=$sst->execute([":ident" => $comment_id]);
+    $result = $db->exec($query);
     if ($result == 0) {
         jump("/error.php", ["errorMessage" => "Comment deletion failed!"]);
     } elseif ($result > 1) {
@@ -47,12 +46,11 @@ function list_comments($entry_id)
 
     $query = "select comments.id as comment_id, entry_id, user_id, contents, comments.created_at as created_at, ".
         "users.name as author " .
-        "from comments join users on comments.user_id = users.id where comments.entry_id = :ident";
+        "from comments join users on comments.user_id = users.id where comments.entry_id = {$entry_id}";
 
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $entry_id]);
+    $result = $db->query($query);
 
-    return $sst->fetchAll();
+    return $result->fetchAll();
 }
 
 
@@ -60,10 +58,9 @@ function get_comment($comment_id)
 {
     $db = BlogDB::connect();
 
-    $query = "select * from comments where id = :ident";
+    $query = "select * from comments where id = {$comment_id}";
 
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $comment_id]);
+    $result = $db->query($query);
 
-    return $sst->fetch();
+    return $result->fetch();
 }

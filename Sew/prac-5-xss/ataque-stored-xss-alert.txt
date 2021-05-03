@@ -1,0 +1,16 @@
+Ejercicio: 1
+
+Objetivo:
+    comprobar en que campos de /entry/add se puede inyectar código js
+
+Punto de entrada:
+    /entry/add.php?blog_id=4
+
+Datos:
+    <script>alert(document.cookie)</script>
+    se puede inyectar tanto en el título como en el cuerpo
+URL:
+    POST /entry/create.php
+
+Identificador:
+    20210430-134018 edeeb673fc62a451ae28aef09fef0518

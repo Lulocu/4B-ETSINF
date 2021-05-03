@@ -12,11 +12,7 @@ include __DIR__ . "/../lib/common.php";
 include __DIR__ . "/model.php";
 include __DIR__ . "/../entry/model.php";
 
-//$blog_id = $_GET["blog_id"];
-$blog_id = filter_input(INPUT_GET, 'blog_id', FILTER_VALIDATE_INT);
-if (!$blog_id) {
-    jump("/error.php", ["errorMessage" => "Invalid blog identifier"]);
-}
+$blog_id = $_GET["blog_id"];
 
 $blog = get_blog($blog_id);
 

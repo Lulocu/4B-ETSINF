@@ -11,10 +11,9 @@ function create_user($user, $name, $password)
     $key = $password; // md5($password);
     $timestamp = time();
 
-    $query = "insert into users (id, user, name, password, created_at) values (null, :ident, :ident1, :ident2, $timestamp)";
+    $query = "insert into users (id, user, name, password, created_at) values (null, '{$user}', '{$name}', '{$key}', $timestamp)";
 
-    $sst=$db->prepare($query);
-    $result=$sst->execute([":ident" => $user,":ident1" => $name,":ident2" => $key]);
+    $result = $db->exec($query);
     if ($result != 1) {
         jump("/user/register.php", ["errorMessage" => "User account '{$user}' cannot be created"]);
     }
@@ -26,11 +25,11 @@ function user_exists($user)
 {
     $db = BlogDB::connect();
 
-    $query = "select * from users where user = :ident";
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $user]);
+    $query = "select * from users where user = '{$user}'";
 
-    return (count($sst->fetchAll()) > 0) ? true : false;
+    $result = $db->query($query);
+
+    return (count($result->fetchAll()) > 0) ? true : false;
 }
 
 function check_user($user, $password)
@@ -39,11 +38,11 @@ function check_user($user, $password)
 
     $key = $password; // md5($password);
 
-    $query = "select id as user_id, user, name from users where user = :ident and password = :ident1";
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $user,":ident1" => $key]);
+    $query = "select id as user_id, user, name from users where user = '{$user}' and password = '{$key}'";
 
-    $profile = $sst->fetch();
+    $result = $db->query($query);
+
+    $profile = $result->fetch();
 
     if ($profile === false) {
         jump("/user/login.php", ["errorMessage" => "Invalid user or password"]);
@@ -51,4 +50,3 @@ function check_user($user, $password)
 
     return $profile;
 }
-

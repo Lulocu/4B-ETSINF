@@ -10,13 +10,9 @@ function create_blog($title, $user_id)
 
     $timestamp = time();
 
-    $query = "insert into blogs (id, title, user_id, created_at) values (null, :ident, :ident1, $timestamp)";
+    $query = "insert into blogs (id, title, user_id, created_at) values (null, '{$title}', '{$user_id}', $timestamp)";
 
-    //add_info_message($query);
-
-    $sst=$db->prepare($query);
-    $result=$sst->execute([":ident" => $title,":ident1" => $user_id]);
-
+    $result = $db->exec($query);
     if ($result != 1) {
         jump("/error.php", ["errorMessage" => "Blog '{$title}' creation failed!"]);
     }
@@ -41,11 +37,11 @@ function get_blog($blog_id) {
 
     $db = BlogDB::connect();
 
-    $query = "select blogs.id as blog_id, title, user_id, blogs.created_at as created_at, users.name as author from blogs join users on blogs.user_id = users.id where blogs.id = :ident";
+    $query = "select blogs.id as blog_id, title, user_id, blogs.created_at as created_at, users.name as author " .
+        "from blogs join users on blogs.user_id = users.id where blogs.id = {$blog_id}";
 
-    $sst=$db->prepare($query);
-    $sst->execute([":ident" => $blog_id]);
+    $result = $db->query($query);
 
-    return $sst->fetch();
+    return $result->fetch();
 
 }
