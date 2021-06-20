@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CifrasDelCesar">
+        <item>ROT5</item>
+        <item>ROT13</item>
+        <item>ROT18</item>
+        <item>ROT47</item>
+    </string-array>
+</resources>

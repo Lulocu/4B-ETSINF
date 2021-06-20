@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name">CDM_CTF</string>
+    <string name="app_name_long">Las cifras del César</string>
+    <string name="btnEnviar">Enviar fichero por email</string>
+    <string name="btnNo">Volver</string>
+    <string name="btnOn">Resolver</string>
+    <string name="btnResuelve">Validar Solución</string>
+    <string name="btnSol">Generar Traza</string>
+    <string name="cideHint">-- Introduce un texto aquí --</string>
+    <string name="introNo1">Lo siento, las credenciales NO son correctas.</string>
+    <string name="introNo2">"Lo siento, aunque las credenciales SON correctas NO diste al César lo que es del César. 
+
+
+ Recuerda que debes pulsar sobre la imagen del César tantas veces como sea necesario para darle lo que te pide. Te vas a encontrar con una pista que te permitirá determinar el número de pulsaciones a realizar, pero presta atención porque la pista sólo estará en pantalla unos segundos. El tiempo que tendrás para aplicar las pulsaciones requeridas a la imagen del César es limitado, con lo que debes ser rápido."</string>
+    <string name="introOn">Enhorabuena, adivinaste las credenciales y puedes ver el mensaje secreto. ¿Podrás descifrarlo para obtener la bandera? Cuando lo hayas hecho pulsa en Resolver para dar tu solución.</string>
+    <string name="introText"><b>Captura la bandera del César</b></string>
+    <string name="introText2">... si puedes</string>
+    <string name="lblCancela">Me rindo</string>
+    <string name="lblInicia">Validar Credenciales</string>
+    <string name="metodoCide">Elige la cifra del César a utilizar:</string>
+    <string name="pista1">Las credenciales están cifradas utilizando las cifras del César implementadas en el paquete es.upv.cdm.jcruizg.ctf.utilidad.cifracesar de la app.</string>
+    <string name="pista2">Usuario correcto. Hfhnevb l pbagenfrñn AB fr pvsena vthny.</string>
+    <string name="pista3">Contraseña correcta. Hfhnevb l pbagenfrñn AB fr pvsena vthny.</string>
+    <string name="pista4">Hfhnevb l pbagenfrñn pbeerpgbf. Nhadhr chrqr dhr ln yb frcnf, ry aúzreb qr irprf dhr chyfnf fboer ry Péfne vzcbegn.</string>
+    <string name="pista5">[Pista 5] Si lees este mensaje es porque ya has encontrado las credenciales requeridas, pero has olvidado dar al César lo que es del César. Cuando el César te pide 14 pulsarás sobre su imagen 7 veces. Cuando te pida 8, lo harás cuatro veces. Y para resolver este ejercicio te pide 28.</string>
+    <string name="pista6">[Pista 6] Hfn yn pvsen EBG92 cnen bograre cbqre yrre ry zrafnwr dhr fr gr rfgá zbfgenaqb.</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="testBtn">Cifrar/Descifrar</string>
+    <string name="testMsg">"Esta actividad se introdujo con fines de test para verificar que los mecanismos de cifrado existentes funcionaban correctamente, pero el desarrollador olvidó eliminarla cuando terminó con la implemementación de la app. 
+
+ Introduce el texto a cifrar/descifrar, elige la cifra del césar a utilizar y pulsa en el botón para ver el resultado.
+"</string>
+    <string name="txtBandera">Bandera:</string>
+    <string name="txtBanderaPista">Bandera aquí</string>
+    <string name="txtContraseña">Contraseña:</string>
+    <string name="txtContraseñaPista">Contraseña aquí</string>
+    <string name="txtExplica">Sólo con las credenciales adecuadas y siguiendo las pistas que se te irán dando lograrás superar este reto.</string>
+    <string name="txtInstFinal">" guardado en directorio 
+ /data/data/es.upv.cdm.jcruizg.ctf/files 
+ "<u>No olvides adjuntarlo a la memoria del CTF que subas a poliformaT</u>".
+
+ Puedes recuperar el fichero del dispositivo o enviártelo por email pulsando en el siguiente botón."</string>
+    <string name="txtIntoFinal">Introduce tus resultados y genera el informe final para tu trabajo.</string>
+    <string name="txtIntroSol">Generación de traza</string>
+    <string name="txtUsuario">Usuario:</string>
+    <string name="txtUsuarioPista">Usuario aquí</string>
+</resources>

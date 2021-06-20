@@ -5,13 +5,15 @@ Java.perform(function () {
 	
 	var callmeActivity = Java.use("com.android.insecurebankv2.LoginActivity");
 
-	callmeActivity.onCreate.implementation = function(bundle) {
-				console.log('');
-				console.log("> Ejecutando onCreate(...) ");
-				var post = Java.use("com.android.insecureBankv2.PostLogin");
+	callmeActivity.performLogin.implementation = function(bundle) {
+				var post = Java.use("com.android.insecureBankv2.PostLOgin");
+				bundle.PostLogin.onCreate(PostLogin.$new())
+
+
 				var i = new Intent(this, PostLogin.class);
-				console.log("> Invocando call:me_win() ");
+				console.log("Invocando");
 				startActivity(i);
+
 	};
 		
 });
