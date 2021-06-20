@@ -1,0 +1,12 @@
+.
+├── blog
+│   └── view.php GET SELECT -> entry/wiew.php,-> user/login.php, register.php
+├── entry
+│   └── view.php GET SELECT -> [blog/wiew.php, comment/mode.php], -> user/login.php, register.php
+├── error.php
+├── index.php  GET SELECT-> [blog/wiew.php], -> user/login.php, register.php
+├── lib
+└── user
+    ├── login.php INPUT POST -> user/validate.php
+    ├── register.php POST -> user/register
+    ├── validate.php POST -> [index.php (error), user/login.php]

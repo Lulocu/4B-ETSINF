@@ -1,0 +1,2 @@
+uid=1000(luis) gid=1000(luis) grupos=1000(luis),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),107(input),119(lpadmin),130(lxd),131(sambashare)
+Yo soy:

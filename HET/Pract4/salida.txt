@@ -1,0 +1,32 @@
+GNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./vuln...
+(No debugging symbols found in ./vuln)
+(gdb) rb vulnerable
+Punto de interrupción 1 at 0x80491f6
+<function, no debug info> vulnerable;
+(gdb) r
+Starting program: /home/luis/4B-ETSINF/HET/Pract4/vuln 
+uid=1000(luis) gid=1000(luis) grupos=1000(luis),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),107(input),119(lpadmin),130(lxd),131(sambashare)
+
+Breakpoint 1, 0x080491f6 in vulnerable ()
+(gdb) x[Kset $eip=0x080490c0
+(gdb) c
+Continuando.
+Yo soy:
+[Inferior 1 (process 1522766) exited normally]
+(gdb) c
+(gdb) co[K[K(gdb) quit

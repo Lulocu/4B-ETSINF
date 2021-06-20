@@ -1,0 +1,16 @@
+div.sew-main {
+    width: 960px;
+    align: center;
+    margin: 0 auto;
+    box-shadow: 6px 6px 3px grey;
+    border-left: thin solid #607d8b;
+    border-right: thin solid #607d8b;
+}
+
+div.sew-contents {
+    min-height: 600px;
+}
+
+.sew-cursor-pointer {
+    cursor: pointer;
+}

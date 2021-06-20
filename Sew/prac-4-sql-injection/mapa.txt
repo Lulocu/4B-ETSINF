@@ -1,0 +1,15 @@
+.
+├── blog
+│   └── view.php GET SELECT -> entry/wiew.php, entry/add.php
+├── comment
+│   ├── create.php POST INSERT-> entry/wiew.php
+├── entry
+│   ├── create.php POST INSERT-> blog/wiew.php
+│   └── view.php GET SELECT -> [blog/wiew.php, comment/mode.php, comment/add, comment/delete]
+├── error.php
+├── index.php  GET SELECT-> [blog/wiew.php]
+└── user
+    ├── login.php INPUT POST -> user/validate.php
+    ├── logout.php GET-> user/logout.php
+    ├── register.php POST INSERT-> user/register
+    ├── validate.php POST SELECT-> [index.php (error), user/login.php]
